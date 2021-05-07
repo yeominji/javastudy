@@ -1,7 +1,7 @@
 package chat;
 import java.io.BufferedReader;
 
-public class ChatclientThread extends Thread {
+public class ChatClientThread extends Thread {
 
 	private BufferedReader br; 
 }

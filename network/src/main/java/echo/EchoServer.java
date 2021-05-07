@@ -80,7 +80,7 @@ public class EchoServer {
 		}
 	}
 
-	private static void log(String log) {
+	static void log(String log) {
 		System.out.println("[EchoServer] " + log);
 	}
 }
