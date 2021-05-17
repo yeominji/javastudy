@@ -16,9 +16,9 @@ public class HashSetTest {
 		s.add("또치");
 		s.add(s1);
 
-		System.out.println(s.size());
-		System.out.println(s.contains(s2));
-
+//		System.out.println(s.size());
+//		System.out.println(s.contains(s2));
+		System.out.println(s.toString());
 		// 순회
 		Iterator<String> it = s.iterator();
 		while (it.hasNext()) {
@@ -26,5 +26,4 @@ public class HashSetTest {
 			System.out.println(str);
 		}
 	}
-
 }

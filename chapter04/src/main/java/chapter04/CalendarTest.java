@@ -13,7 +13,7 @@ public class CalendarTest {
 		cal.set(Calendar.DATE, 25);
 		printDate(cal);
 
-		cal.set(1996, 8, 3);
+		cal.set(1996, 10, 3);
 		cal.add(Calendar.DATE, 365);
 		printDate(cal);
 	}
